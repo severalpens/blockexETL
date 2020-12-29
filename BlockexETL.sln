@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockex", "blockExtraction\Blockex.csproj", "{FA5ABCA6-6869-4465-95BA-037BBDAE9A06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EllipticSource", "EllipticSource\EllipticSource.csproj", "{BD1D4D4F-778B-406B-9D55-6A160DBCAD08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA5ABCA6-6869-4465-95BA-037BBDAE9A06} = {FA5ABCA6-6869-4465-95BA-037BBDAE9A06}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F7B1424-AA11-4EF8-A646-B90E5EC05667}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		PackageManagerCmds.txt = PackageManagerCmds.txt
+		sp_TruncateTables.sql = sp_TruncateTables.sql
+		vwBtcUcBlockchains.sql = vwBtcUcBlockchains.sql
+		vwEthBlocks.sql = vwEthBlocks.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA5ABCA6-6869-4465-95BA-037BBDAE9A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5ABCA6-6869-4465-95BA-037BBDAE9A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5ABCA6-6869-4465-95BA-037BBDAE9A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5ABCA6-6869-4465-95BA-037BBDAE9A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1D4D4F-778B-406B-9D55-6A160DBCAD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1D4D4F-778B-406B-9D55-6A160DBCAD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1D4D4F-778B-406B-9D55-6A160DBCAD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1D4D4F-778B-406B-9D55-6A160DBCAD08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4702892-4BFB-4ED4-B535-4FE2A8807BF6}
+	EndGlobalSection
+EndGlobal
